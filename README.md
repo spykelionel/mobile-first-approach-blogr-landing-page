@@ -81,7 +81,7 @@ want to be good at styling navigation items.
 
 ## Author
 
-- Website - [Spyke Lionel](https://www.your-site.com)
+- Name - Spyke Lionel
 - Frontend Mentor - [@spykelionel](https://www.frontendmentor.io/profile/spykelionel)
 - Twitter - [@spyke_lionel](https://www.twitter.com/spyke_lionel)
 
