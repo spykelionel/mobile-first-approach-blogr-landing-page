@@ -88,3 +88,4 @@ want to be good at styling navigation items.
 ## Acknowledgments
 
 I thank the Almighty God for giving me Wisdom and guidance throughout this project
+and I also thank Frontend Mentors -(https://www.frontendmentor.io/) for giving me the opportunity to showcase my expirience in frontend development
