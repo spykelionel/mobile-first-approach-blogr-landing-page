@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogr</title>
+    <link
+      rel="shortcut icon"
+      href="assets/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <link rel="stylesheet" href="/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav id="nav">
+        <label for="logo"><a href="index.html">Blogr</a></label>
+       <div id="selectItem" class="my-little mobile-flex-col">
+        <select name="product" id="product">
+            <option value="">Product</option>
+            <option value="">Pricing</option>
+            <option value="">Marketplace</option>
+            <option value="">Features</option>
+            <option value="">Integrations</option>
+          </select>
+          <select name="company" id="company">
+            <option value="">Company</option>
+            <option value="">About</option>
+            <option value="">Team</option>
+            <option value="">Blog</option>
+            <option value="">Careers</option>
+          </select>
+          <select name="connect" id="connect">
+            <option value="">Connect</option>
+            <option value="">Contact</option>
+            <option value="">Newsletter</option>
+            <option value="">Linkedln</option>
+          </select>
+
+          <div class="float-right">
+            <a href="" class="button" id="login">Login</a>
+            <a href="" class="button" id="signup">Sign Up</a>
+          </div>
+       </div>
+      </nav>
+      <div class="menu-icon right">
+        <img id="hamburger" onclick="toExit();" src="assets/icon-hamburger.svg" alt="icon-hamburger" />
+        <img id="close" onclick="toMenu();" src="assets/icon-close.svg" alt="icon-close">
+      </div>
+        
+      <section class="section0">
+        <h2>A modern 
+          publishing platform</h2>
+        <p>Grow your audience and build your 
+          online brand</p>
+        <div class="starter">
+          <a href="" class="button" id="start">Start For Free</a>
+          <a href="" class="button" id="learn">Learn More</a>
+        </div>
+      </section>
+    </header>
+    <h2 class="future">Designed for the future</h2>
+
+    <section class="section1 grid-3 flex-col">
+      <img
+        src="assets/illustration-editor-mobile.svg"
+        alt="illustration-editor-mobile"
+        class="img2"
+      />
+     
+       <div class="part1 flex-col">
+        <h3>Introducing an 
+          extensible editor</h3>
+        <p>
+          Blogr features an exceeding intuitive 
+          interface which lets you focus on one 
+          thing: creating content. The editor 
+          supports management of multiple blogs 
+          and allows easy manipulation of embeds 
+          such as images, videos, and Markdown. 
+          Extensibility with plugins and themes 
+          provide easy ways to add functionality or 
+          charge the looks of a blog.
+        </p>
+      </div>
+      <div class="part2">
+        <h3>Robust content
+           management</h3>
+        <p>
+          Flexible content management enables 
+          users to easily move through posts, 
+          increased the usability of your blog by 
+          adding customized categories, sections, 
+          formats, or flow. With this functionality,
+          you're in full control.
+        </p>
+      </div>
+    </section>
+
+    <section class="section2">
+      <!-- <img id="img1" src="assets/bg-pattern-circles.svg" alt=""> -->
+      <img id="img2" src="assets/illustration-phones.svg" alt="illustration-phones" />
+
+      <div class="part2">
+        <h2>State of the Art 
+          Infrastructure</h2>
+        <p>
+          With reliability and speed in mind, 
+          worldwide data centers provide the
+          backbone for ultra-fast connectivity. This 
+          ensures your site will load instantly, no
+           matter where readers are, keeping 
+           your site competitive.
+        </p>
+      </div>
+    </section>
+
+    <section class="section3">
+      <img
+        class="part1"
+        src="assets/illustration-laptop-desktop.svg"
+        alt="illustration-laptop-desktop"
+      />
+      
+      <div class="part2">
+        <h2>Free, open, simple</h2>
+        <p>
+          Blogr is a free and open source  
+          application backed by a large community 
+          of hepful developers. It supports features 
+          such as code syntax highlighting, RSS 
+          feeds, social media integration, third-
+          party commenting tools, and works 
+          seamlessly with Google Analytivs. The
+          architecture is clean and is realtively 
+          easy to learn.
+        </p>
+      </div>
+      <div class="part3">
+        <h2>Powerful tooling</h2>
+        <p>
+          Batteries included. We built a simple and 
+          straightforward CLI tool that makes 
+          customization and deployment a breeze, 
+          but capable of producing even the most 
+          complicated sites.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="grid-4">
+        <h1 class="one"><a href="">Blogr</a></h1>
+        <!-- Product -->
+        <div class="two flex-row">
+          <h2>Product</h2>
+          <ul class="flex-row">
+            <li><a href="">Overview</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Marketplace</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Integrations</a></li>
+          </ul>
+        </div>
+        <!-- Company -->
+        <div class="three flex-row">
+          <h2>Company</h2>
+          <ul class="flex-row">
+            <li><a href="">About</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Careers</a></li>
+          </ul>
+        </div>
+        <!-- Connect -->
+        <div class="four flex-row">
+          <h2>Connect</h2>
+          <ul class="flex-row">
+            <li><a href="">Contact</a></li>
+            <li><a href="">Newsletter</a></li>
+            <li><a href="">Linkedln</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    // I love this part.
+    let hamburger = document.querySelector("#hamburger");
+    let exit = document.querySelector("#close");
+    let item = document.querySelector("#selectItem");
+
+    function toExit() {
+      hamburger.style.display = 'none';
+      exit.style.display = 'inline-block';
+      item.classList.add("active");
+
+    }
+
+    function toMenu() {
+      exit.style.display = 'none';
+      hamburger.style.display = 'inline-block';
+      item.classList.remove("active");
+    }
+
+  </script>
+</html>
