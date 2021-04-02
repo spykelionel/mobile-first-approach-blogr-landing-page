@@ -75,8 +75,8 @@ want to be good at styling navigation items.
 
 ### Useful resources
 
-- [White space value](https://developer.mozilla.com) - This helped me understand more of the `white-space` property
-- [Example resource 2](https://m.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG) - This article helped me to be
+- [Mozilla](https://developer.mozilla.com) - This helped me understand more of the `white-space` property
+- [youtube](https://m.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG) - This article helped me to be
   comfortable with displaying elements on a page using `flex`
 
 ## Author
