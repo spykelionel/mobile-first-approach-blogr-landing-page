@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Source Code](https://github.com/spykelion/mobile-first-approach-blogr-landing-page)
-- Live Site URL: [Mobile first landing page blogr](landing-page-mobile-first.netlify.app)
+- Live Site URL: [Mobile first landing page blogr](https://landing-page-mobile-first.netlify.app/)
 
 ## My process
 
