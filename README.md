@@ -70,7 +70,7 @@ function toExit() {
 
 ### Continued development
 
-I really want to be comfortable with <select> tag and its properties plus a way to style them, and also
+I really want to be comfortable with <select> select </select> tag and its properties plus a way to style them, and also
 want to be good at styling navigation items.
 
 ### Useful resources
